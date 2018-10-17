@@ -10,3 +10,6 @@ img {
     margin-right: auto;
     width: 40%;
 }
+section.foo{
+    text-align: center;
+}
