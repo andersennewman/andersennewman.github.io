@@ -10,3 +10,6 @@ img {
     margin-right: auto;
     object-fit: contain;
 }
+a{
+    text-align: center;
+}
