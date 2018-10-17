@@ -10,6 +10,6 @@ h1.foo{
     text-align: center;
 }
 
-h1#new-point {
+h1.new-point {
     text-align: right;
 }
