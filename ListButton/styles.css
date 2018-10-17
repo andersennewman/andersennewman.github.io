@@ -11,5 +11,5 @@ h1.foo{
 }
 
 h1#new-point {
-    text-align: right;
+    text-align: left;
 }
