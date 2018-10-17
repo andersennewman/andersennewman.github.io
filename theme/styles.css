@@ -5,7 +5,8 @@ p.foo{
     text-align: center;
 }
 img {
-    display: inline;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: contain;
 }
