@@ -4,6 +4,9 @@ h1.foo{
 p.foo{
     text-align: center;
 }
+p.lug{
+    float: right;
+}
 img {
     display: block;
     margin-left: auto;
@@ -27,4 +30,8 @@ nav ul {
 nav li {
     display: inline;
     padding: 8px;    
+}
+image.dem {
+    display: block;
+    float: left;
 }
