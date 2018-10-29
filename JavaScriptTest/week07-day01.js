@@ -1,4 +1,4 @@
-const num = 3;
+num = 3;
 const numberString = '3';
 const rain = true;
 
@@ -13,7 +13,17 @@ if (rain === true) {
     console.log('Go for a walk.');
 }
 
+num = 5;
 console.log('MODULUS TEST FOR EVEN:', num % 2);
+console.log('MODULUS TEST FOR EVEN:', num % 2 === 0);
+
+function evenOrOdd(value) {
+    if((value%2) === 0){
+        console.log('The number ' + value + 'is even');
+    } else {
+        console.log('The number ' + value + 'is odd');
+    }
+}
 
 var app = {
 
