@@ -21,7 +21,7 @@ img {
   z-index: 1;
 }
 main {
-    margin-top: 1000px;
+    top: 50px;
 }
 nav {        
     background-color: aliceblue;
