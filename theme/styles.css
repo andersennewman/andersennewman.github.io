@@ -14,12 +14,13 @@ img {
     object-fit: contain;
 }
 .scroll {
+    background-color: white;
   position: fixed;
   top: 0;
   width: 100%  
 }
 main {
-    padding: 16px;
+    padding-top: 16px;
 }
 nav {        
     background-color: aliceblue;
