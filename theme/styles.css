@@ -18,6 +18,9 @@ img {
   top: 0;
   width: 100%  
 }
+main {
+    padding: 16px;
+}
 nav {        
     background-color: aliceblue;
     border: 1px green solid;
