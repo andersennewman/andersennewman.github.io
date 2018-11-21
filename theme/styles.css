@@ -20,7 +20,9 @@ img {
   width: 100%;
   z-index: 1;
 }
-
+main {
+    margin-top: 5.08cm;
+}
 nav {        
     background-color: aliceblue;
     border: 1px green solid;
