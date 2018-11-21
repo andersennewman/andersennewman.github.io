@@ -13,7 +13,7 @@ img {
     margin-right: auto;
     object-fit: contain;
 }
-main {
+.scroll {
   display: block;
   height: 200px;
   overflow-y: scroll;
