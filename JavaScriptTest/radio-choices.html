@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="radio-choices.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Radio Choices</title>
+</head>
+<body>
+    <header>
+        <h1>Radio Choices</h1>
+    </header>
+    <main>
+        <section>
+            <fieldset id = clr> 
+                <legend>The User Selection</legend> 
+                <p><b>User choice</b>: <span id="user-choice">Unknown</span></p> 
+            </fieldset>
+        </section>
+        <section>
+            <fieldset id = clr>
+                <legend>Our Form</legend>
+                <form id="sort-type" action="goThere">
+                        <input type="radio" id="rank" name="sorter" value="Rank" checked>
+                        <label for="rank">Rank</label>
+                    
+                        <input type="radio" id="language" name="sorter" value="Language">
+                        <label for="language">Language</label>
+
+                        <input type="radio" id="status" name="sorter" value="Status">
+                        <label for="status">Status</label>
+
+                        <input type="radio" id="category" name="sorter" value="Category">
+                        <label for="category">Category</label>
+
+                        <input type="radio" id="downloads" name="sorter" value="Downloads">
+                        <label for="downloads">Downloads</label>
+
+                        <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                        </div>
+                    </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>&copy Andersen Newman</p>
+        <p>Contact Information: <a href="mailto:andersennewman@gmail.com">andersennewman@gmail.com</a></p>  
+        <a href = "../index.html">Home</a>
+    </footer>
+</body>
+</html>
