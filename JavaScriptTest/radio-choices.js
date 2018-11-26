@@ -24,7 +24,7 @@ window.onload = () => {
     });
 }
 
-showChoice = (value) => {
+function showChoice(value) {
     const inputDis = document.getElementById('user-choice');
 
     inputDis.textContent = value;
